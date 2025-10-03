@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+}
+body{
+  background: #f9f7f7;
+}
+#string{
+  height: 200px;
+  width: 100%;
+  /* background-color: rgb(29, 48, 41); */
+}
+svg{ 
+
+}
