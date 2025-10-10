@@ -13,6 +13,9 @@ body {
   height: 100%;
   width: 100%;
 }
+body{
+  overflow-x: hidden;
+}
 .section1 {
   height: 100%;
   width: 100%;
@@ -52,7 +55,7 @@ nav button {
   cursor: pointer;
 }
 .center {
-  height: 85%;
+  height: 80%;
   width: 100%;
   padding: 70px 80px;
   display: flex;
@@ -107,7 +110,7 @@ nav button {
 
 /* section2 start here */
 .section2 {
-  height: 100%;
+  
   width: 100%;
   padding: 20px 50px;
 }
@@ -135,12 +138,15 @@ nav button {
   font-family: china;
 }
 .container{
-  height: 86%;
+  min-height: 86vh;
   width: 100%;
   padding: 20px 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  overflow-x: hidden; 
+  gap:50px;
+  
 }
 .elem{
   flex-shrink: 0;
@@ -159,6 +165,7 @@ nav button {
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
+
 }
 .elem-part2{
   height: 100%;
@@ -176,6 +183,7 @@ nav button {
   width: fit-content;
   padding: 0px 5px;
   border-radius: 10px;
+  color: #000;
 
 }
 .elem-part1 h4{
@@ -190,12 +198,63 @@ nav button {
 .elem-part1 h4 i{
   padding: 10px;
   background-color: black;
-  color: white;
+  color: white ;
   border-radius: 50%;
   font-weight: 900;
 
 }
 .black{
   background-color: #000;
+  color: #fff;
+}
+
+/* section2 ends here */
+/* section3 starts here*/
+
+.section3{
+  height: 70vh;
+  width: 100%;
+  padding: 50px 60px;
   
+  
+}
+.proposal-div{
+  display: flex;
+  padding: 5px 60px;
+  border-radius: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  
+}
+.proposal-div .proposal-texts{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 30px;
+  width: 45%;
+}
+.proposal-div .proposal-texts h3{
+  font-size: 30px;
+  font-family: china;
+  
+}
+.proposal-div .proposal-texts p{
+  font-size: 18px;
+  font-family: china;
+  
+
+}
+.proposal-div .proposal-texts button{
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  
+
 }
